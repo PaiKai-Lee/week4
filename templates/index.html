@@ -41,9 +41,9 @@
                 font-size: 20px;
             }
             #btn{
-                margin: 4px 0;
+                width: 100px;
+                margin:auto;
             }
-            
         </style>
     </head>
     <body>
@@ -53,7 +53,7 @@
         <main class="wrap">
             <div class="frame">
                 <div class="item">登入系統</div>
-                <form action="/signin" class="former">
+                <form action="/signin" class="former" method="POST">
                     <label for="user">帳號  <input type="text" placeholder="請輸入帳號" id="user" name="user"></label>
                     <label for="password">密碼  <input type="password" placeholder="請輸入密碼" id="password" name="password"></label>
                     <button class="login" id="btn">登入</button>
